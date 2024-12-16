@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(107, 36, 36);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+    color: burlywood;
+}
+
+h1, h2, h3 {
+    color: burlywood;
+    text-align: center;
+}
+
+ol, ul {
+    color: burlywood;
+    margin: 0 auto;
+    display: table;
+}
