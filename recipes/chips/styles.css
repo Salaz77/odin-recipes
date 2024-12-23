@@ -29,6 +29,7 @@ img {
 ul, ol {
     display: table;
     margin: 0 auto;
+    font-size: 15px;
 }
 
 ol {

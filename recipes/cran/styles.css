@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(88, 3, 28);
+html {
+    box-sizing: border-box;
 }
 
 * {
@@ -7,11 +7,9 @@ body {
 }
 
 h1, h2 {
-    color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: white;
-    margin-left: 30%;
-    margin-right: 30%;
+    background-color: rgb(170, 34, 34);
 }
 
 img {
@@ -23,11 +21,12 @@ img {
 ul, ol {
     display: table;
     margin: 0 auto;
-    color: white;
+    font-size: 15px;
+    color: rgb(170, 34, 34);
+    font-weight: bold;
 }
 
 p {
     text-align: center;
     font-style: italic;
-    color: white;
 }
