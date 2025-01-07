@@ -1,15 +1,32 @@
-html {
-    box-sizing: border-box;
-}
-
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif
 }
 
-h1, h2 {
-    color: rgb(255, 255, 255);
-    text-align: center;
+.header-top {
+    display: flex;
     background-color: rgb(170, 34, 34);
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 1px;
+}
+
+.header-ingredients {
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 34, 34);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.header-directions {
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 34, 34);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 img {
@@ -17,7 +34,7 @@ img {
     margin-right: auto;
     display: block;
     height: 300px;
-    width: 400px;
+    margin-bottom: 5px;
 }
 
 ul, ol {
@@ -30,4 +47,5 @@ ul, ol {
 p {
     text-align: center;
     font-style: italic;
+    margin-bottom: 5px;
 }
