@@ -2,7 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(170, 34, 34);
 }
 
 .header-container {
@@ -38,6 +46,7 @@
 }
 
 img {
+    padding: 20px;
     margin: auto;
     display: block;
     height: 300px;
@@ -47,11 +56,13 @@ img {
 .ul-container {
     display: flex;
     justify-content: center;
+    padding-right: 405px;
 }
 
 .ol-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 130px;
 }
 
 p {
