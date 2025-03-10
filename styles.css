@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
 .header {
     display: flex;
     justify-content: flex-start;
@@ -15,22 +20,21 @@
     margin-bottom: 1px;
 }
 
-img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 500px;
-    background-image: url("https://i.pinimg.com/736x/bb/23/d8/bb23d8183b0c1949d7569bbe26652031.jpg")";
+.img-box {
+    display: flex;
+    justify-content: center;
+    height: 400px;
 }
 
-a {
-    padding-bottom: 10px;
+img {
+    border-radius: 12px;
 }
 
 .list-container {
     display: flex;
     margin-top: 10px;
     font-weight: bold;
-    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
     align-items: center;
 }
